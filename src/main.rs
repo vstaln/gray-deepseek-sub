@@ -46,6 +46,7 @@ fn manifest() -> Value {
             &["models", "chat"], CACHE_TTL_SECS,
         )],
         "commands": ["/deepseek"],
+        "command_descriptions": {"/deepseek": "switch to DeepSeek models"},
         "subcommands": ["deepseek"],
     })
 }
